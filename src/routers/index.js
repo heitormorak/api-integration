@@ -4,9 +4,9 @@ import { getTwitterUser } from "../controllers/twitterController.js";
 
 const router = express.Router();
 
-router.get('/getGitHubUser', getGitHubUser);
-router.get('/getGitHubUserRepos', getGitHubUserRepos);
-router.post('/postGitHubCreateRepo', postGitHubCreateRepo);
-router.get('/getTwitterUser', getTwitterUser);
+router.get('/GitHubUser', getGitHubUser);
+router.get('/GitHubUser/repos', getGitHubUserRepos);
+router.post('/GitHub/repo', postGitHubCreateRepo);
+router.get('/TwitterUser', getTwitterUser);
 
 export default router;
