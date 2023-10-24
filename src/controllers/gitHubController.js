@@ -45,6 +45,3 @@ export async function postGitHubCreateRepo(){
             console.log(`Error: ${error}`);
         }
 }
-
-getGitHubUser();
-getGitHubUserRepos();

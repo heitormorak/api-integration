@@ -16,7 +16,7 @@ const headers = {
     Authorization: oauthHeader,
 };
 
-async function getUser(){
+async function getTwitterUser(){
     try{
         const response = await fetch(apiUrl, {
             method: "GET",
@@ -31,6 +31,3 @@ async function getUser(){
     }
     
 }
-
-getUser();
-
